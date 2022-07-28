@@ -1,0 +1,19 @@
+#navbar {
+    display:flex;
+    justify-content: space-between;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+#menu > div>img{
+    height:300px;
+    width:100%;
+}
